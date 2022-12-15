@@ -19,7 +19,7 @@ while (distance > 10)
         time = distance / (secondFriendSpeed + dogSpeed);
         friend = 1;
     }
-    distance = distance - (secondFriendSpeed - firstFriendSpeed) * time;
+    distance = distance - (secondFriendSpeed + firstFriendSpeed) * time;
     count = count + 1;
 }
 Console.Write("Собака пробежит: ");
